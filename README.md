@@ -64,6 +64,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 <!-- for run -->
+php artisan serve
+php artisan reverb:start --host=0.0.0.0 --port=8080
+php artisan queue:work
+npm run dev
+
+
 php artisan composer install
 php artisan reverb:install
 
@@ -72,3 +78,6 @@ npm install --save-dev vite laravel-vite-plugin
 npm install bootstrap @popperjs/core
 npm install laravel-echo
 npm install axios
+
+
+php artisan storage:link
